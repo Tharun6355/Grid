@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+.maingrid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+    background-color: black;
+    border: 50px solid black;
+    
+}
+.grid1{
+    background-color:wheat;
+    
+}
+.grid2{
+    background-color: tomato;
+}
+.grid3{
+    background-color: thistle;
+}
+.grid4{
+    background-color: turquoise;
+}
+.grid5{
+    background-color: yellow;
+}
+.grid6{
+    background-color: rgb(88, 59, 5);
+
+}
+.grid7{
+    background-color: slateblue;
+}
+.grid8{
+    background-color: lime;
+}

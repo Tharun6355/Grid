@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+.maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    grid-gap: 20px;
+    border: 30px solid black;
+}
+.grid1{
+    background-color: coral;
+    grid-column: 1/4;
+}
+.grid2{
+    background-color: darkgreen;
+    grid-row:2/4 ;
+}
+.grid3{
+    background-color: chartreuse;
+    grid-column: 2/4;
+}
+.grid4{
+    background-color: crimson;
+}
+.grid5{
+    background-color: darkgoldenrod;
+}

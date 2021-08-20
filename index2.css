@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    box-sizing: border-box;
+}
+.maingrid{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    border: 50px solid black;
+    grid-gap: 15px;
+
+}
+.grid1{
+    background-color:wheat;
+    grid-column: 1/4;
+
+    
+    
+}
+.grid2{
+    background-color:rgb(10, 82, 10);
+}
+.grid3{
+    background-color:orangered;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.grid4{
+    background-color: rgb(12, 87, 79);
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
